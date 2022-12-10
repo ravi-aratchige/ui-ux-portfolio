@@ -1,2 +1,4 @@
 # ui-ux-portfolio
-Website template for UI/UX designer portfolio
+This project is still under construction.
+<br>
+<img src="preview.png">
