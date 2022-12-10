@@ -12,7 +12,7 @@ div.header {
     justify-content: space-between;
 }
 div.header > p {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 div.header > ul > li > a {
     text-decoration: none;
@@ -41,6 +41,9 @@ span.gradient {
 }
 span.underline {
     text-decoration: underline wavy #FF0099 2px;
+}
+span.italic {
+    font-style: italic;
 }
 p.what-i-do {
     font-size: 2rem;
@@ -83,5 +86,12 @@ input[type=submit]:hover {
     cursor: pointer;
 }
 .socials {
-    font-size: 2rem;
+    font-size: 1.6rem;
+}
+a:hover {
+    background: -webkit-linear-gradient(#4e54c8, #8f94fb);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
 }
