@@ -1,11 +1,87 @@
 * {
-    background-color: black;
+    background-color: #240b36;
     color: white;
+    font-family: 'Lora', Geneva, Verdana, sans-serif;
+}
+body {
+    padding-left: 2rem;
+}
+div.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.header > p {
+    font-size: 1.4rem;
+}
+div.header > ul > li > a {
+    text-decoration: none;
+}
+ul.header {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+ul.header > li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.introduction {
+    padding-top: 8rem;
 }
 p.intro {
+    font-size: 3.5rem;
+}
+span.gradient {
+    background: -webkit-linear-gradient(#0176e4, #b0b4ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+span.underline {
+    text-decoration: underline wavy #FF0099 2px;
+}
+p.what-i-do {
+    font-size: 2rem;
+    padding-bottom: 8rem;
+}
+h2 {
     font-size: 4rem;
+}
+.skills {
+    padding-bottom: 4rem;
+}
+div.skills > p {
+    font-size: 1.6rem;
+}
+div.contact {
+    padding-bottom: 4rem;
+}
+form > p {
+    font-size: 2rem;
+    line-height: 4rem;
 }
 input {
     border: none;
     border-bottom: 2px solid white;
+    width: 30rem;
+}
+input:focus {
+    border: none;
+    border-bottom: 3px solid white;
+}
+input[type=submit] {
+    border: 2px solid white;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    width: 15rem;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.socials {
+    font-size: 2rem;
 }
