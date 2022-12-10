@@ -109,6 +109,10 @@ a:hover {
     background-color: #8f94fb;
     color: white;
 }
+span.gradient::selection {
+    background: #8f94fb;
+    -webkit-text-fill-color: white;
+}
 
 /* MEDIA QUERIES */
 
