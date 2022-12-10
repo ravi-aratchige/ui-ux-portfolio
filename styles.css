@@ -1,0 +1,11 @@
+* {
+    background-color: black;
+    color: white;
+}
+p.intro {
+    font-size: 4rem;
+}
+input {
+    border: none;
+    border-bottom: 2px solid white;
+}
