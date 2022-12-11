@@ -121,7 +121,7 @@ input[type=submit] {
 }
 input[type=submit]:hover {
     background-color: white;
-    color: black;
+    color: #240b36;
     cursor: pointer;
 }
 
