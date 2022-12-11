@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous">
+    </script>
     <title>Ravi Aratchige</title>
 </head>
 <body>
@@ -31,16 +36,17 @@
     </div>
     <div class="contact">
         <h2>Get in Touch</h2>
-        <form action="">
+        <form action="" id="myForm">
             <p class="contact">
-                Hello, Ravi. My name is <input type="text" id="name" required>. You can contact me by my email <input type="email" id="email"> or call me on <input type="number" id="phone">.
+                Hello, Ravi. My name is <input type="text" id="name" name="name" required>. You can contact me by my email <input type="email" id="email" name="email"> or call me on <input type="number" id="phone" name="phone">.
             </p>
             <br>
-            <input type="submit" value="Send Message">
+            <input type="submit" value="Send Message" onclick="SubForm()">
         </form>
     </div>
     <div class="socials">
         <p><a href="#">Resume</a> | <a href="#">LinkedIn</a> | <a href="#">Behance</a> | <a href="#">Github</a></p>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
