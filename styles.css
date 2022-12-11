@@ -98,6 +98,15 @@ input:focus {
     border-bottom: 4px solid white;
 }
 
+/* CONTACT FORM - CORRECT COLOR OF AUTOCOMPLETED INPUTS */
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #240b36 inset !important;
+  -webkit-text-fill-color: white !important;
+}
+
 /* CONTACT FORM - REMOVE ARROWS OF NUMBER INPUT FIELD (PHONE NUMBER) */
 
 input::-webkit-outer-spin-button,
