@@ -113,13 +113,13 @@ input[type=number] {
 
 /* CONTACT FORM - SUBMIT BUTTON */
 
-input[type=submit] {
+button {
     border: 2px solid white;
     padding: 1.2rem;
     font-size: 1.2rem;
     width: 15rem;
 }
-input[type=submit]:hover {
+button:hover {
     background-color: white;
     color: #240b36;
     cursor: pointer;
