@@ -79,10 +79,22 @@ input {
     border: none;
     border-bottom: 2px solid white;
     width: 30rem;
+    font-size: 2rem;
 }
 input:focus {
-    border: none;
-    border-bottom: 3px solid white;
+    outline: none;
+    border-bottom: 4px solid white;
+}
+/* Remove arrows of number input field */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    appearance: textfield;
+    -moz-appearance: textfield;
 }
 input[type=submit] {
     border: 2px solid white;
