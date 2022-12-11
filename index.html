@@ -11,6 +11,21 @@
 		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
 		crossorigin="anonymous">
     </script>
+    <script>
+        function SubForm(){
+            $.ajax({
+                url:"https://api.apispreadsheets.com/data/qkZ7Z3W6U2i3whui/",
+                type:"post",
+                data:$("#myForm").serializeArray(),
+                success: function(){
+                    alert("Form Data Submitted :)")
+                },
+                error: function(){
+                    alert("There was an error :(")
+                }
+            });
+        }
+    </script>
     <title>Ravi Aratchige</title>
 </head>
 <body>
