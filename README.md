@@ -1,4 +1,4 @@
-# ui-ux-portfolio
+# UI/UX Portfolio
 This project is still under construction.
 <br><br>
 Click <a href="https://ravi-aratchige.github.io/ui-ux-portfolio/">here</a> to preview the template.
